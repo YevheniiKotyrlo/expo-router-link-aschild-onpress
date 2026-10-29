@@ -1,6 +1,6 @@
 # expo-router-link-aschild-onpress
 
-On web, `<Link asChild>` around a DOM element passes it React Native's `onPress`, and React warns `Unknown event handler property `onPress``. This repository is `npx create-expo-app@latest` (the default template: Expo 58.0.21, `expo-router` 58.0.28), with `npx expo install --fix` run once and one change in `src/app/index.tsx`: on web it renders
+On web, `<Link asChild>` around a DOM element passes it React Native's `onPress`, and React warns that `onPress` is an unknown event handler property. This repository is `npx create-expo-app@latest` (the default template: Expo 58.0.21, `expo-router` 58.0.28), with `npx expo install --fix` run once and one change in `src/app/index.tsx`: on web it renders
 
 ```tsx
 <Link asChild href="/explore">
